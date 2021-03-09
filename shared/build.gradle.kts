@@ -17,17 +17,16 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation("org.koin:koin-core:3.0.0-alpha-4")
+                implementation("io.insert-koin:koin-core:3.0.1-beta-1")
             }
         }
 
         val androidMain by getting {
             dependencies {
-                implementation("com.google.android.material:material:1.2.1")
+                implementation("com.google.android.material:material:1.3.0")
             }
         }
         val iosMain by getting
-        val iosTest by getting
     }
 }
 
